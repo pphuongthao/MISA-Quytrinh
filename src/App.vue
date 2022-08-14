@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <div class="container">
+      <TheNavbar />
+      <TheMainContent/>
+      <!-- <TPopUp/> -->
+      <!-- <TUpdateUser/> -->
+      <!-- <TDeleteUser/> -->
+      <!-- <AddUser/> -->
+      <!-- <TCustomColumn/> -->
+    </div>
+  </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import AddUser from './view/AddUser.vue';
+import TheNavbar from "./components/layout/TheNavbar.vue";
+import TheMainContent from "./components/layout/TheMainContent.vue"
+// import TUpdateUser from './components/base/TUpdateUser.vue'
+// import TDeleteUser from './components/base/TDeleteUser.vue'
+// import TPopUp from './components/base/TPopUp.vue'
+// import TCustomColumn from './components/base/TCustomColumn.vue'
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    TheNavbar,
+    TheMainContent
+    // AddUser,
+    // TUpdateUser
+    // TDeleteUser
+    // TPopUp
+    // TCustomColumn
+},
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import url(./css/main.css);
+
 </style>

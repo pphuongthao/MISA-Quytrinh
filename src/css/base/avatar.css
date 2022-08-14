@@ -1,0 +1,52 @@
+.bold-profile{
+    color: #fcfffa;
+    font-size: 16px;
+}
+.profile-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    margin-right: 8px;
+    /* background: red; */
+  }
+   .color9{
+          background: red;
+      }
+  
+      .color8{
+          background: blue;
+      }
+      .color7{
+          background: yellow;
+      }
+      .color6{
+          background: #00ffff;
+      }
+  
+      .color0{
+          background: #ff1493;
+      }
+  
+      .color1{
+          background: #ADFF2F;
+      }
+  
+      .color2{
+          background: #ff8c00;
+      }
+  
+      .color3{
+          background: #D3D3D3;
+      }
+  
+      .color4{
+          background: #FFDEAD;
+      }
+  
+      .color5{
+          background: #FF6347;
+      }

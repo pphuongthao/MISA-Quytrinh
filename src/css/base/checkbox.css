@@ -1,0 +1,17 @@
+/* CSS Checkbox */
+.icon-square-check.icon-square-uncheck {
+    -webkit-mask-position: -512px 2px;
+    -webkit-mask-image: url(../../assets/img/Icon_process.1401a69c.svg);
+    -webkit-mask-repeat: no-repeat;
+    background-color: #02a3ec!important;
+}
+.icon-square-uncheck {
+    -webkit-mask-position: -532px 2px;
+    -webkit-mask-image: url(../../assets/img/Icon_process.1401a69c.svg);
+    -webkit-mask-repeat: no-repeat;
+    background-color: #686c7b!important;
+}
+
+.icon-square-uncheck:hover {
+    background-color: #02a3ec!important;
+}
